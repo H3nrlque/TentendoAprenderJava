@@ -1,0 +1,12 @@
+package ExerciciosPolimorfismo.exercicioVeiculo.dominio;
+
+public class Moto extends Veiculo{
+    public Moto(String tipo, String ano, String tipoCombustivel, int quantidadeCombustivel) {
+        super(tipo, ano, tipoCombustivel, quantidadeCombustivel);
+    }
+
+    @Override
+    public int abastecer() {
+        return quantidadeCombustivel;
+    }
+}
