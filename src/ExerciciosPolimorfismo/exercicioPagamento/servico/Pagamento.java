@@ -22,17 +22,17 @@ public class Pagamento extends Compras {
             System.out.println("Tipo de pagamento: "+tipoPagamento.getTipo());
             valorPago -= valorPago * 0.05;
             System.out.printf("Valor pago: R$ %.2f\n",valorPago);
-            System.out.println("Pagamento realizado com sucesso");
+            System.out.println("Pagando realizado com sucesso");
         } else if (tipoPagamento.getTipo().equals("Debito")) {
             System.out.println("Tipo de pagamento: "+tipoPagamento.getTipo());
             valorPago -= valorPago * 0.1;
             System.out.printf("Valor pago: R$ %.2f\n",valorPago);
-            System.out.println("Pagamento realizado com sucesso");
+            System.out.println("Pagando realizado com sucesso");
         } else {
             System.out.println("Tipo de pagamento: "+tipoPagamento.getTipo());
             valorPago -= valorPago * 0.15;
             System.out.printf("Valor pago: R$ %.2f\n",valorPago);
-            System.out.println("Pagamento realizado com sucesso");
+            System.out.println("Pagando realizado com sucesso");
         }
     }
 }
