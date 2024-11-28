@@ -20,7 +20,7 @@ public class ContaCorrente extends Banco{
             System.out.println("Saldo insuficiente");
         } else {
             this.saldo -= valor;
-            System.out.println("SAque realizado com sucesso");
+            System.out.println("Saque realizado com sucesso");
         }
     }
 
