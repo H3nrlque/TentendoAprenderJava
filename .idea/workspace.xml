@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="791ff6d2-9da3-4251-a936-fef42a3aed94" name="Changes" comment="Exercicios">
-      <change afterPath="$PROJECT_DIR$/src/ExerciciosMaisCompletos/SistemaDeTransporte/dominio/Viagem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExerciciosMaisCompletos/SistemaDeTransporte/dominio/Transporte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExerciciosMaisCompletos/SistemaDeTransporte/dominio/Transporte.java" afterDir="false" />
+    <list default="true" id="791ff6d2-9da3-4251-a936-fef42a3aed94" name="Changes" comment="Jeito que eu consigo fazer tal exercício no momento">
+      <change afterPath="$PROJECT_DIR$/src/ListaExerciciosDio/GerenciadorDeEventos/dominio/Beneficinte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListaExerciciosDio/GerenciadorDeEventos/dominio/Evento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListaExerciciosDio/GerenciadorDeEventos/dominio/Festa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListaExerciciosDio/GerenciadorDeEventos/dominio/Organizador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListaExerciciosDio/GerenciadorDeEventos/dominio/Participante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListaExerciciosDio/GerenciadorDeEventos/servico/RelatorioEvento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListaExerciciosDio/GerenciadorDeEventos/teste/EventoTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListaExerciciosDio/SistemaBiblioteca/dominio/Biblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListaExerciciosDio/SistemaBiblioteca/dominio/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListaExerciciosDio/SistemaBiblioteca/dominio/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListaExerciciosDio/SistemaBiblioteca/servico/Relatorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListaExerciciosDio/SistemaBiblioteca/teste/BibliotecaTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -43,8 +55,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.AccountTeste.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AgendaTeste.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AlunoTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.AnimalTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Animalteste.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.BancoTeste.executor&quot;: &quot;Run&quot;,
     &quot;Application.BibliotecaTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.CalculadoraTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.CalculoAreaTeste.executor&quot;: &quot;Debug&quot;,
@@ -53,9 +68,11 @@
     &quot;Application.ConstantsTeste.executor&quot;: &quot;Run&quot;,
     &quot;Application.ContaBancariaTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.CountTeste.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DivisaoTeste.executor&quot;: &quot;Run&quot;,
     &quot;Application.Dois.executor&quot;: &quot;Run&quot;,
     &quot;Application.EletrodomesticoTeste.executor&quot;: &quot;Run&quot;,
     &quot;Application.EscolaTeste.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.EstoqueTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.EstudanteTeste.executor&quot;: &quot;Run&quot;,
     &quot;Application.FormaTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.FormasTeste.executor&quot;: &quot;Debug&quot;,
@@ -63,36 +80,47 @@
     &quot;Application.FuncionariosTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.GatoTeste.executor&quot;: &quot;Run&quot;,
     &quot;Application.HotelTeste.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ImcTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.InitializerTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.InstrumentoTeste.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JogoDaVelha.executor&quot;: &quot;Debug&quot;,
     &quot;Application.LeituraDoTeclado2.executor&quot;: &quot;Debug&quot;,
     &quot;Application.LeituraDoTecladoTeste.executor&quot;: &quot;Run&quot;,
     &quot;Application.LiderCursos.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ListaExerciciosDio.ExercicioPagamento.teste.PagamentoTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.LivroTeste.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LojaEletronicoTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.LojaVirtualTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.MathTeste.executor&quot;: &quot;Run&quot;,
     &quot;Application.MultiplicacaoTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.NIvelDificuldadeTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.OperacaoTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.PagamentoTeste.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PessoaTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.ProjetosTeste.executor&quot;: &quot;Run&quot;,
     &quot;Application.Quatro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RegistroEscolarTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.RestauranteTeste.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SalarioTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Seis.executor&quot;: &quot;Run&quot;,
     &quot;Application.SemanaTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.SeminarioTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.SistemaBibliotecaTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.StudentTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TemperaturaTeste.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Teste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.TransporteTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Tres.executor&quot;: &quot;Run&quot;,
     &quot;Application.Um.executor&quot;: &quot;Debug&quot;,
     &quot;Application.VeiculoTeste.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ViagemTeste.executor&quot;: &quot;Debug&quot;,
     &quot;Application.Zero.executor&quot;: &quot;Run&quot;,
     &quot;Application.planetaTeste.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.teste.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;Debugger_Data_Views_Java&quot;
   }
@@ -103,13 +131,13 @@
       <recent name="ExerciciosClasseAbstratas.dominio" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TransporteTeste">
-    <configuration name="EletrodomesticoTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExerciciosPolimorfismo.exercicioEletrodomestico.teste.EletrodomesticoTeste" />
+  <component name="RunManager" selected="Application.BibliotecaTeste">
+    <configuration name="BibliotecaTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListaExerciciosDio.SistemaBiblioteca.teste.BibliotecaTeste" />
       <module name="Pratica" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExerciciosPolimorfismo.exercicioEletrodomestico.teste.*" />
+          <option name="PATTERN" value="ListaExerciciosDio.SistemaBiblioteca.teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LojaVirtualTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExerciciosMaisCompletos.SistemaDeLojaVirtual.teste.LojaVirtualTeste" />
+    <configuration name="EventoTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListaExerciciosDio.GerenciadorDeEventos.teste.EventoTeste" />
       <module name="Pratica" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExerciciosMaisCompletos.SistemaDeLojaVirtual.teste.*" />
+          <option name="PATTERN" value="ListaExerciciosDio.GerenciadorDeEventos.teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestauranteTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExerciciosMaisCompletos.SistemaRestaurante.teste.RestauranteTeste" />
+    <configuration name="LojaEletronicoTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListaExerciciosDio.ExercicioLojaDeEletronicos.teste.LojaEletronicoTeste" />
       <module name="Pratica" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExerciciosMaisCompletos.SistemaRestaurante.teste.*" />
+          <option name="PATTERN" value="ListaExerciciosDio.ExercicioLojaDeEletronicos.teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SistemaBibliotecaTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExerciciosMaisCompletos.SistemaDeBiblioteca.teste.SistemaBibliotecaTeste" />
+    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListaExerciciosDio.SistemaDeLojaVirtual.teste.Teste" />
       <module name="Pratica" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExerciciosMaisCompletos.SistemaDeBiblioteca.teste.*" />
+          <option name="PATTERN" value="ListaExerciciosDio.SistemaDeLojaVirtual.teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +185,11 @@
       </method>
     </configuration>
     <configuration name="TransporteTeste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExerciciosMaisCompletos.SistemaDeTransporte.teste.TransporteTeste" />
+      <option name="MAIN_CLASS_NAME" value="ListaExerciciosDio.ExercicioTransportes.teste.TransporteTeste" />
       <module name="Pratica" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ExerciciosMaisCompletos.SistemaDeTransporte.teste.*" />
+          <option name="PATTERN" value="ListaExerciciosDio.ExercicioTransportes.teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BibliotecaTeste" />
+        <item itemvalue="Application.EventoTeste" />
+        <item itemvalue="Application.Teste" />
+        <item itemvalue="Application.LojaEletronicoTeste" />
         <item itemvalue="Application.TransporteTeste" />
-        <item itemvalue="Application.RestauranteTeste" />
-        <item itemvalue="Application.SistemaBibliotecaTeste" />
-        <item itemvalue="Application.LojaVirtualTeste" />
-        <item itemvalue="Application.EletrodomesticoTeste" />
       </list>
     </recent_temporary>
   </component>
@@ -203,12 +231,78 @@
       <option name="project" value="LOCAL" />
       <updated>1731875313730</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mais Exercícios">
+      <option name="closed" value="true" />
+      <created>1731981032102</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731981032102</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Mais Exercícios">
+      <option name="closed" value="true" />
+      <created>1732587572780</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732587572780</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Mais Exercícios">
+      <option name="closed" value="true" />
+      <created>1732669414565</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732669414565</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Mais Exercícios">
+      <option name="closed" value="true" />
+      <created>1732672263333</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732672263333</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Mais Exercícios">
+      <option name="closed" value="true" />
+      <created>1732676379242</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732676379242</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Mais Exercícios">
+      <option name="closed" value="true" />
+      <created>1732757963244</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732757963244</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Mais Exercícios">
+      <option name="closed" value="true" />
+      <created>1732762823170</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732762823170</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Jeito que eu consigo fazer tal exercício no momento">
+      <option name="closed" value="true" />
+      <created>1732939220075</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732939220075</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exercicios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicios" />
+    <MESSAGE value="Mais Exercícios" />
+    <MESSAGE value="Jeito que eu consigo fazer tal exercício no momento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jeito que eu consigo fazer tal exercício no momento" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -357,6 +451,106 @@
           <url>file://$PROJECT_DIR$/src/ExerciciosMaisCompletos/SistemaDeTransporte/teste/TransporteTeste.java</url>
           <line>6</line>
           <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ExerciciosMaisCompletos/RegistroEscolar/teste/RegistroEscolarTeste.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ExerciciosMaisCompletos/RegistroEscolar/teste/EscolaTeste.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ExerciciosMaisCompletos/SistemaEstoque/teste/EstoqueTeste.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ExerciciosMaisCompletos/JogoDaVelha/dominio/JogoDaVelha.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ListaExerciciosDio/ExercicioCombustivel/teste/ViagemTeste.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ListaExerciciosDio/ExercicioSalarioProfessor/teste/SalarioTeste.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ListaExerciciosDio/ExercicioDivisao/teste/DivisaoTeste.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ListaExerciciosDio/ExercicioTemperatura/teste/TemperaturaTeste.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ListaExerciciosDio/ExercicioTempoDeVida/teste/teste.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ListaExerciciosDio/ExercicioTipoDePagamento/teste/PagamentoTeste.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ListaExerciciosDio/ExercicioPagamento/teste/PagamentoTeste.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ListaExerciciosDio/ExercicioNotaAluno/teste/AlunoTeste.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ListaExerciciosDio/ExercicioIMC/teste/ImcTeste.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ListaExerciciosDio/ExercicioAgendaDeContatos/teste/AgendaTeste.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ListaExerciciosDio/ExercicioTransportes/teste/TransporteTeste.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ListaExerciciosDio/ExercicioLojaDeEletronicos/teste/LojaEletronicoTeste.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ListaExerciciosDio/SistemaDeLojaVirtual/teste/Teste.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ListaExerciciosDio/GerenciadorDeEventos/teste/EventoTeste.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ListaExerciciosDio/SistemaBiblioteca/teste/BibliotecaTeste.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ListaExerciciosDio/SistemaBiblioteca/teste/BibliotecaTeste.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="110" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
