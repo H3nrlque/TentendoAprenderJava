@@ -1,21 +1,21 @@
 package ListaExerciciosDio.SistemaDeHotel.dominio;
 
 public class Reserva {
-    private String nome;
     private String dataCheck_in;
     private String dataCheck_out;
     private Quarto quarto;
+    private Cliente cliente;
 
-    public Reserva(String nome, String dataCheck_in, String dataCheck_out, Quarto quarto) {
-        this.nome = nome;
+    public Reserva(Cliente cliente, String dataCheck_in, String dataCheck_out, Quarto quarto) {
+        this.cliente = cliente;
         this.dataCheck_in = dataCheck_in;
         this.dataCheck_out = dataCheck_out;
         this.quarto = quarto;
         reservarQuarto();
     }
 
-    public String getNome() {
-        return nome;
+    public Cliente getCliente() {
+        return cliente;
     }
 
     public String getDataCheck_in() {
@@ -35,12 +35,5 @@ public class Reserva {
             return;
         }
         quarto.disponibilidade = "indisponível";
-    }
-
-    public void removerReserva() {
-
-        if (quarto.disponibilidade.equals("indisponível")) {
-            quarto.disponibilidade = "disponível";
-        }
     }
 }
