@@ -33,10 +33,20 @@ public class Pedido {
         }
     }
 
+    public double valorPedido() {
+        double soma = 0;
+        for (Prato prato : pratos) {
+            soma += prato.preco;
+        }
+        return soma;
+
+    }
+
     @Override
     public String toString() {
         return "Pedido"+"\n"
                 +"Cliente: "+cliente.getNome()+"\n"
-                +"Pratos: "+getPratos()+"\n";
+                +"Pratos: "+getPratos()+"\n"
+                +"Valor da conta: R$ "+valorPedido();
     }
 }

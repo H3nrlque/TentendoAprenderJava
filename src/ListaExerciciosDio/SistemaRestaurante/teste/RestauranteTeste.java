@@ -15,7 +15,6 @@ public class RestauranteTeste {
         restaurante.adicionarPedido(pedido);
         restaurante.exibirPedidos();
         System.out.println();
-        System.out.println(cliente.getPedido());
     }
 
     public static Cardapio pratosCardapio() {
