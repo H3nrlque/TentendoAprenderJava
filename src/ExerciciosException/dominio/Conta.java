@@ -30,7 +30,7 @@ public class Conta {
             System.out.println("saque realizado com sucesso");
             System.out.println("Saldo Atual: R$ "+saldo);
         } else {
-            throw new SaldoInsuficienteException();
+            throw new SaldoInsuficienteException("Saldo insuficiente");
         }
     }
 

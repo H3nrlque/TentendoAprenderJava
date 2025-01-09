@@ -7,14 +7,13 @@ import ExerciciosException.dominio.Titular;
 import java.util.Scanner;
 
 public class TesteConta {
-    @SuppressWarnings("CallToPrintStackTrace")
     public static void main(String[] args) {
         Conta conta = instanciarConta();
         conta.deposito(5000);
         try {
             conta.saque(6000);
         } catch (SaldoInsuficienteException e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
     }
 
