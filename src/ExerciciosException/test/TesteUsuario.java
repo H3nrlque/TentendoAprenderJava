@@ -12,7 +12,7 @@ public class TesteUsuario {
 
     }
 
-    public static void login() throws IllegalArgumentException {
+    private static void login() throws IllegalArgumentException {
         Scanner tc = new Scanner(System.in);
         String usuario = "Gohan";
         String senha = "ssj mais forte";

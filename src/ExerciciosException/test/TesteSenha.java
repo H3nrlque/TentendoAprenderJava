@@ -17,7 +17,7 @@ public class TesteSenha {
 
     }
 
-    public static void validarSenha(String senha) throws SenhaInvalidaException {
+    private static void validarSenha(String senha) throws SenhaInvalidaException {
         if (senha.length() >= 8 && senha.matches(".*[a-z].*") && senha.matches(".*[A-Z].*") && senha.matches(".*[0-9].*")) {
             System.out.println("Senha válida");
         } else {

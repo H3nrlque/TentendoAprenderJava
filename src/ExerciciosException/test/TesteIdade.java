@@ -13,7 +13,7 @@ public class TesteIdade {
         }
     }
 
-    public static void entradadade() throws IdadeInvalidaException {
+    private static void entradadade() throws IdadeInvalidaException {
         Scanner tc = new Scanner(System.in);
         System.out.print("Digite sua idade: ");
         int idade = tc.nextInt();

@@ -17,7 +17,7 @@ public class TesteConta {
         }
     }
 
-    public static Conta instanciarConta() {
+    private static Conta instanciarConta() {
         Scanner tc = new Scanner(System.in);
         System.out.println("Criando conta");
         System.out.print("Nome: ");
