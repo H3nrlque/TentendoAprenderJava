@@ -10,8 +10,6 @@ public class TesteNota {
             validarNota(adicionarNota());
         } catch (NotaInvalidaException e) {
             System.out.println("Erro: "+e.getMessage());
-        } finally {
-            System.out.println("Nota válida");
         }
 
     }
@@ -26,6 +24,8 @@ public class TesteNota {
     private static void validarNota(double nota) throws NotaInvalidaException {
         if (!(nota >= 0 && nota <= 10)) {
             throw new NotaInvalidaException("Nota inválida. Tente novamente");
+        } else {
+            System.out.println("Nota válida");
         }
     }
 }
