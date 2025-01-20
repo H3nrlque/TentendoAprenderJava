@@ -1,4 +1,4 @@
-package ExerciciosClasseDateECalendar.test;
+package ExerciciosSobreDatas.test;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
