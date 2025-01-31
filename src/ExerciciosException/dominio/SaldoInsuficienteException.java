@@ -1,7 +1,7 @@
 package ExerciciosException.dominio;
 
 public class SaldoInsuficienteException extends Exception {
-    public SaldoInsuficienteException(String message) {
-        super("Saldo insuficiente");
+    public SaldoInsuficienteException() {
+        System.out.println("Withdraw error: Not enough balance");
     }
 }
